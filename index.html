@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href = "styles.css">
 </head>
 <body>
-    <script>
-        playGame();
-    </script>
+    <p>Rock Paper Scissors</p>
+    <div class ="buttons">
+        <button id = "rockButton">Rock</button>
+        <button id = "paperButton">paper</button>
+        <button id = "scissorsButton">scissors</button>
+    </div>
+
+    <div id = "computerChoiceDisplay">Computer choice wil appear here.</div>
+    <div id = "RoundWinner">winner of round.</div>
+    <div id = "humanScore">Human score: 0</div>
+    <div id = "computerScore">computer score: 0</div>
 </body>
 </html>
